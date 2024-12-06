@@ -1,9 +1,12 @@
 #container{
     width: 936px;
     display: flex;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     font-family: Arial, Helvetica, sans-serif;
     border: 2px solid #000;
+    margin-top: 142px;
+    margin-left: 129px;
+    opacity: 1;
 }
 
 #left{
@@ -20,6 +23,8 @@
     padding: 35px;
     box-sizing: border-box;
     border: 2px solid #000;
+   
+    
 }
 
 #right{
@@ -28,3 +33,442 @@
     background-color: rgb(0, 0, 106);
     border: 2px solid #000;
 }
+
+.witVierkantRechts{
+    position: relative;
+    width: 94px;
+    height: 94px;
+    background-color: white;
+    margin-top: 36px;
+    margin-left: 15px;
+    
+}
+
+.blauwVierkantje{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(0, 0, 106);
+}
+
+.nummer18{
+    position: absolute;
+    left: 5px;
+    top: 22px;  
+    color: rgb(0, 0, 106);
+    font-size: 67px;
+    font-weight: bold;
+    letter-spacing: -7px;
+
+}
+
+.letterB{
+
+    position: absolute;
+    left: 67px;
+    top: 30px;
+    color: rgb(0, 0, 106);
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: -7px;
+}
+
+.Spoor{
+
+    position: absolute;
+    left: 25px;
+    top: 6px;
+    color: rgb(0, 0, 106);
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0px;
+}
+
+.Logo{
+    background-image: url(../img/ns_logo.webp);
+    position: relative;
+    left: 394px;
+    top: -166px;
+    height: 28px;
+    width: 74px;
+    background-size: cover;
+    z-index: 1;
+}
+
+.nummers{
+    background-image: url(../img/klok.webp);
+    position: relative;
+    left: 41px;
+    top: -186px;
+    height: 151px;
+    width: 151px;
+    background-size: cover;
+    z-index: 0;
+}
+.nummer1{
+
+    position: absolute;
+    left: 426px;
+    top: 183px;
+    color: rgb(0, 0, 106);
+    font-size: 34px;
+    font-weight: bold;
+    letter-spacing: 0px;
+
+}
+
+.minuut{
+
+    position: absolute;
+    left: 452px;
+    top: 191px;
+    color: rgb(0, 0, 106);
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 0px;
+}
+
+.witteAchtergrond{
+    background-color: #ffffff;
+    height: 240px;
+    width: 480px;
+    border: 2px solid #000;
+}
+
+.intercity{
+
+    position: absolute;
+    left: 659px;
+    top: 181px;
+    color: rgb(0, 0, 106);
+    font-size: 37px;
+    font-weight: bold;
+    letter-spacing: 0px;
+}
+
+.heerlen{
+
+    position: absolute;
+    left: 427px;
+    top: 222px;
+    color: rgb(0, 0, 106);
+    font-size: 39px;
+    font-weight: bold;
+    letter-spacing: 0px;
+}
+
+.plaatsen{
+
+    position: absolute;
+    left: 426px;
+    top: 277px;
+    color: rgb(0, 0, 106);
+    font-size: 25.1px;
+    font-weight: bold;
+    letter-spacing: -0.3px;
+}
+
+.plaatsen1{
+
+    position: absolute;
+    left: 426px;
+    top: 313px;
+    color: rgb(0, 0, 106);
+    font-size: 25.1px;
+    font-weight: bold;
+    letter-spacing: -0.3px;
+}
+
+.blauweBalk{
+
+    background-color: rgb(0, 0, 106);
+    height: 25px;
+    width: 480px;
+    border: 2px solid #000;
+    position: relative;
+    top: 240px;
+    left: -2px;
+}
+
+.textOnder{
+
+    position: absolute;
+    left: 426px;
+    top: 426px;
+    color: rgb(255, 255, 255);
+    font-size: 19.1px;
+    font-weight: bold;
+    letter-spacing: -0.3px;
+}
+
+.treinText{
+
+    position: absolute;
+    left: 563px;
+    top: 400px;
+    color: rgb(0, 0, 106);
+    font-size: 15.1px;
+    font-weight: bold;
+    letter-spacing: 21.7px;
+}
+
+.klok{
+    width: 160px;
+    height: 160px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    border: 10px solid rgb(84, 84, 84);
+    opacity: 0.4;
+    position: relative;
+    top: 14px;
+    left: 26px;
+}
+
+.roodPuntje{
+    width: 8px;
+    height: 8px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    position: relative;
+    top: -79px;
+    left: 109px;
+    z-index: 10;
+}
+
+.wijzer1{
+    width: 66px;
+    height: 2px;
+    background-color: #ff0000;
+    position: relative;
+    top: -87px;
+    left: 75px;
+    transform: rotate(206deg);
+}
+
+
+.roodPuntje1{
+    width: 11px;
+    height: 11px;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    position: relative;
+    top: -113px;
+    left: 65px;
+    background-color: #f0f0f0;
+    z-index: 5;
+}
+
+.wijzer2{
+    width: 21px;
+    height: 2px;
+    background-color: #ff0000;
+    position: relative;
+    top: -129px;
+    left: 46px;
+    transform: rotate(206deg);
+    z-index: 5;
+}
+
+.langeWijzer{
+    width: 91px;
+    height: 5px;
+    background-color: rgb(0, 0, 106);
+    position: relative;
+    top: -97px;
+    left: 45px;
+    transform: rotate(342deg);
+    z-index: 5;
+}
+
+.korteWijzer{
+    width: 61px;
+    height: 5px;
+    background-color: rgb(0, 0, 106);
+    position: relative;
+    top: -108px;
+    left: 73px;
+    transform: rotate(352deg);
+    z-index: 5;
+}
+
+.blauwStreepje{
+    width: 196px;
+    height: 2px;
+    background-color: rgb(0, 0, 106);
+    position: relative;
+    top: 188px;
+    left: 134px;
+    transform: rotate(deg);
+    z-index: 5;
+}
+
+.blauwStreepje1{
+    width: 228px;
+    height: 2px;
+    background-color: rgb(0, 0, 106);
+    position: relative;
+    top: 202px;
+    left: 122px;
+    transform: rotate(deg);
+    z-index: 5;
+}
+
+.blauwStreepje2{
+    width: 228px;
+    height: 2px;
+    background-color: rgb(0, 0, 106);
+    position: relative;
+    top: 206px;
+    left: 122px;
+    transform: rotate(deg);
+    z-index: 5;
+}
+
+.blauwStreepje3{
+    width: 6px;
+    height: 2px;
+    background-color: rgb(0, 0, 106);
+    position: relative;
+    top: 201px;
+    left: 119px;
+    transform: rotate(90deg);
+    z-index: 5;
+}
+
+.blauwStreepje4{
+    width: 6px;
+    height: 2px;
+    background-color: rgb(0, 0, 106);
+    position: relative;
+    top: 199px;
+    left: 192px;
+    transform: rotate(90deg);
+    z-index: 5;
+}
+
+.blauwStreepje5{
+    width: 6px;
+    height: 2px;
+    background-color: rgb(0, 0, 106);
+    position: relative;
+    top: 197px;
+    left: 232px;
+    transform: rotate(90deg);
+    z-index: 5;
+}
+
+.blauwStreepje6{
+    width: 6px;
+    height: 2px;
+    background-color: rgb(0, 0, 106);
+    position: relative;
+    top: 195px;
+    left: 156px;
+    transform: rotate(90deg);
+    z-index: 5;
+}
+
+.blauwStreepje7{
+    width: 6px;
+    height: 2px;
+    background-color: rgb(0, 0, 106);
+    position: relative;
+    top: 193px;
+    left: 270px;
+    transform: rotate(90deg);
+    z-index: 5;
+}
+
+.blauwStreepje8{
+    width: 6px;
+    height: 2px;
+    background-color: rgb(0, 0, 106);
+    position: relative;
+    top: 191px;
+    left: 308px;
+    transform: rotate(90deg);
+    z-index: 5;
+}
+
+.blauwStreepje9{
+    width: 6px;
+    height: 2px;
+    background-color: rgb(0, 0, 106);
+    position: relative;
+    top: 189px;
+    left: 346px;
+    transform: rotate(90deg);
+    z-index: 5;
+}
+
+.blauwStreepje10{
+    width: 21px;
+    height: 2px;
+    background-color: rgb(0, 0, 106);
+    position: relative;
+    top: 177px;
+    left: 117px;
+    transform: rotate(122deg);
+    z-index: 5;
+}
+
+.witteStreep1{
+    width: 9px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 175px;
+    left: 331px;
+    transform: rotate(180deg);
+    z-index: 5;
+}
+
+.witteStreep2{
+    width: 6px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 171px;
+    left: 335px;
+    transform: rotate(36deg);
+    z-index: 5;
+}
+
+.witteStreep3{
+    width: 5px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 173px;
+    left: 335px;
+    transform: rotate(307deg);
+    z-index: 5;
+}
+
+.rechterBlok {
+    position: relative;
+    width: 21px;
+    height: 16px;
+    background: #00137f;
+    border-radius: 80px 0 0 80px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%, 0 50%);
+    margin: 50px auto;
+    transform: rotate(180deg);
+    top: 110px;
+    left: 99px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
